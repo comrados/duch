@@ -20,6 +20,13 @@ pip install -r requirements.txt
 
 ---
 
+## Data
+
+Augmented and non-augmented image and caption [Features](placeholder) encoded with ResNet18 and BERT respectively. Insert them to `./data/` folder.
+
+
+---
+
 ## Configs
 
 `./configs/base_config.py`
