@@ -1,10 +1,12 @@
-# Structure
+# Deep Unsupervised Cross-Modal Contrastive Hashing
+
+## Structure
 
 ![structure.png](images/structure.png)
 
 ---
 
-# Requirements
+## Requirements
 
 * Python 3.8
 * PyTorch 1.8
@@ -18,7 +20,7 @@ pip install -r requirements.txt
 
 ---
 
-# Configs
+## Configs
 
 `./configs/base_config.py`
 
@@ -47,9 +49,9 @@ DUCH learning configuration:
 
 ---
 
-# Data augmentation
+## Data augmentation
 
-## Image augmentation
+### Image augmentation
 
 ```
 images_augment.py [-h] [--dataset DATASET_NAME] [--img-aug IMG_AUG_SET]
@@ -97,9 +99,9 @@ images_augment.py --dataset ucm --img-aug aug_center --crop-size 200 200 --rot-d
 images_augment.py --dataset ucm --img-aug each_img_random
 ```
 
-## Text augmentation
+### Text augmentation
 
-### Augmentation
+#### Augmentation
 
 Augments raw sentences from dataset's JSON-file. Augmented sentences are inserted into the same file under other tags (`aug_rb`, `aug_bt_prob`, `aug_bt_chain` for rule-based, backtranslation and chain backtranslation respectively).
 Check `./configs/config_txt_aug.py` for 
@@ -121,7 +123,7 @@ Example:
 captions_augment.py --dataset ucm --txt-aug rule-based
 ```
 
-### Embedding
+#### Embedding
 
 Embeds captions (`raw`) and augmented captions (`aug_rb`, `aug_bt_prob`, `aug_bt_chain`) consequently.
 ```
@@ -140,7 +142,7 @@ captions_embed.py --dataset ucm
 
 ---
 
-# Learning
+## Learning
 
 ```
 main.py [-h] [--test] [--bit BIT] [--model MODEL] [--epochs EPOCHS]
@@ -181,7 +183,15 @@ main.py --dataset ucm --preset default --bit 64 --tag my_model --test
 
 ---
 
-# License
+## Citation
+
+```
+placeholder
+```
+
+---
+
+## License
 
 Copyright (c) 2021 Georgii Mikriukov
 
