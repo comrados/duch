@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ## Data
 
-[Augmented and non-augmented image and caption features](placeholder) for UCMerced and RSICD datasets encoded with ResNet18 and BERT respectively. Insert them to `./data/` folder.
+[Augmented and non-augmented image and caption features](https://tubcloud.tu-berlin.de/s/DykEC54PxRM93TP) for UCMerced and RSICD datasets encoded with ResNet18 and BERT respectively. Insert them to `./data/` folder.
 
 
 ---
