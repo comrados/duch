@@ -1,4 +1,12 @@
-# Deep Unsupervised Cross-Modal Contrastive Hashing
+# Deep Unsupervised Cross-Modal Contrastive Hashing in Remote Sensing
+
+> Paper placeholder
+
+If you use the code from this repository in your research, please cite the following paper:
+
+```
+Bibtex placeholder
+```
 
 ## Structure
 
@@ -190,16 +198,11 @@ main.py --dataset ucm --preset default --bit 64 --tag my_model --test
 
 ---
 
-## Citation
-
-```
-placeholder
-```
-
----
-
 ## License
 
+The code is available under the terms of MIT license:
+
+```
 Copyright (c) 2021 Georgii Mikriukov
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -219,4 +222,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
 
