@@ -1,4 +1,4 @@
-# Deep Unsupervised Cross-Modal Contrastive Hashing in Remote Sensing
+# Unsupervised Contrastive Hashing for Cross-Modal Retrieval in Remote Sensing"
 
 > G. Mikriukov, M. Ravanbakhsh, and B. Demіr, "Unsupervised Contrastive Hashing for Cross-Modal Retrieval in Remote Sensing", IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022.
 
