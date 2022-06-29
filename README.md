@@ -1,11 +1,27 @@
 # Deep Unsupervised Cross-Modal Contrastive Hashing in Remote Sensing
 
-> Paper placeholder
+> G. Mikriukov, M. Ravanbakhsh, and B. Demіr, "Unsupervised Contrastive Hashing for Cross-Modal Retrieval in Remote Sensing", IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022.
+
+> G. Mikriukov, M. Ravanbakhsh, and B. Demіr, "Deep Unsupervised Contrastive Hashing for Large-Scale Cross-Modal Text-Image Retrieval in Remote Sensing",  arXiv:1611.08408, 2022.
 
 If you use the code from this repository in your research, please cite the following paper:
 
 ```
-Bibtex placeholder
+@inproceedings{duch2022icassp,
+  title={Unsupervised Contrastive Hashing for Cross-Modal Retrieval in Remote Sensing},
+  author={G. {Mikriukov} and M. {Ravanbakhsh} and B. {Demіr}},
+  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  year={2022}
+} 
+
+@article{duch2022,
+  title={Deep Unsupervised Contrastive Hashing for Large-Scale Cross-Modal Text-Image Retrieval in Remote Sensing},
+  author={G. {Mikriukov} and M. {Ravanbakhsh} and B. {Demіr}},
+  url={https://arxiv.org/abs/2201.08125},
+  journal={arxiv:1611.08408},
+  year={2022}
+} 
+
 ```
 
 ## Structure
